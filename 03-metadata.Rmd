@@ -1,0 +1,10 @@
+# Metadata
+
+## Variable names
+Dot, under slash or camel?
+## Categories
+Spaces or dots…
+Be careful to plural forms: choose either singular or plural and be consistent. Singular often makes more sense. Always check categories with pivot tables or duplicate removal.
+Be careful to capital letters: decide to capitalize or not and be consistent.
+Darwin Core and GBIF
+

@@ -1,0 +1,30 @@
+# Sharing is caring
+
+## Free versus proprietary formats
+Here is a table provided by the Boston College Libraries website
+To prevent data from being lost to incompatibility, store it as formats and on hardware that are open standard, not proprietary.
+Type of Data	Recommended Format	Avoid These Formats
+Plain Text	.txt	.docx, .doc, .rtf
+Tabular Text	.csv, .tsv	.xlsx, .xls
+Image	.jp2, .tiff	.jpg, .psd
+Documents	.pdf/a, .epub	.azw
+Archiving	.zip	.rar
+Storage	Cloud, iDiv servers, iDiv data repository	CD-Rom
+
+## Working together
+When collaborating for analysing data and writing an article, preferably use open formats such as OpenDocuments (.odt) or Latex (.tex). In ecology, these formats are often disregarded because Microsoft Office is widely available and taking into account the difficulty for colleagues to buy a license is not obvious (Linux users?). LaTeX is often disregarded as reviewing tools are not as practical as they are in classical text editors.
+Online tools (such as Google Documents, Dropbox Papers…) offer free, synchronized text editors with correct editing tools and reviewing possibilities. 
+Synchronising and sharing files between iDiv members should be done with Nextcloud rather than Dropbox. In these solutions, when two people work on the same file, the one that save the file last will usually erase the older file. Adding your initials at the end, incrementing the version number or communicating to prevent working on the same files at the same time is good practice.
+
+## Git
+Take the iDiv git training
+
+## R
+Modifying your profile file in R offers practical advantages but using it to load functions or change options when opening R is source of issues when you share your code. Functions should be sourced within shared scripts and their code provided directly or in a package.
+Commenting code helps reviewing code and understanding it, and is a necessity when sharing code.
+Setwd?
+
+## Sharing a good reproducible example
+Sharing code to reproduce an error or ask a solution is critical.
+?structure
+

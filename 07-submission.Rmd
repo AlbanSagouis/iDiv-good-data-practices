@@ -1,0 +1,19 @@
+# Submitting  data set
+## Ecology data paper submission process
+
+Cover Letter
+2 reviewers
+
+data can be provided zipped as a Multimedia Supporting Information for Review and publication.
+
+double line space, Times New Roman 12
+line numbers after the end of the institution list
+in the metadata, figures and tables should be placed in the body of the manuscript, not at the end.
+
+the article is intially submitted as the main document and once accepted, the template for the abstract is provided by Ecology and the abstract becomes the main document and the data set and the metadata become appendices.
+
+## Dryad submission process
+120$
+readme files to describe the project and the tables. I put variable definition tables for fragsad
+
+DOI is automatically attributed when submitting.

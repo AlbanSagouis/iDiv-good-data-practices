@@ -1,0 +1,23 @@
+# Resources
+
+https://library.stanford.edu/research/data-management-services/data-best-practices
+Long-term planning
+## Document your plan
+Once you have started to implement best practices for yourself and your research group, make an effort to document these plans. Include your and your group's procedures for the following:
++	Naming files
++	Saving and backing up files
++	Describing data files
++	Tracking versions
+You might consider using a wiki or a Google doc that everyone in your group can access when needed. Be sure to define who is responsible for each task and for setting the overall policies.
+
+## Plan for knowledge transfer
+As a last step, don't forget to create and implement a plan for how to transfer knowledge about a project when it changes hands or when someone leaves the group. This will help prevent valuable information from getting lost!
+
+## When applying for a grant
+Funding institutions often ask for a Data managing Plan. You can use the DMP tool from University of California to do that: https://dmptool.org/
+
+## Additional Resources
+Want to learn more about best practices? Try these great web sites:
++	DataONE Best Practices
++	UK Data Archive
++	https://libguides.bc.edu/dataplan/best_practices

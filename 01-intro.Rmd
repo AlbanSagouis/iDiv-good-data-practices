@@ -1,0 +1,3 @@
+# Introduction {#intro}
+
+iDiv good data practices is a  collaborative project.

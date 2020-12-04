@@ -1,0 +1,15 @@
+# Organising your data
+
+## Good backing-up practices
+Back-ups are useful when a file was accidently deleted, a file is modified and no previous version is available or your computer is lost, stolen or corrupted. Ideally the back-ups should be kept in different places. You can back-up your current files on the network; heavier and older files can be stored on external memory supports but it should not be kept in the same building as your main memory. Use a back-up software to automatically back-up files on the network or on an external hard-drive (examples). WHAT IS IDIV POLICY ON BACKUP? DO THEY BACKUP THEIR SERVERS?
+H and I are backed up daily. I can be used for long term storage. And they have history versions.
+Nextcloud may be used as a backup solution but the server is backed up only once a week and there is no history, only the most recent version of files is saved. It goes over the Internet and does not need to be connected to iDiv network.
+
+## Good versioning practices
+Adding the number of the version in the filename. Creating a new version can be done on a regular basis, every day or week, or when critical changes are made to the code. In any case, documenting modifications and new features is necessary.
+Documenting the version changes, a versioning.txt file can be used for each file but it can be lost.
+* in an Excel file, use an additional sheet
+* in a csv, write a description and a version description in the first line that will then be skipped by R (skip argument in read.table(), data.table::fread() and others).
+* In a script, write a description and a version description at the top of the file.
+* git
+* csvy

@@ -1,0 +1,4 @@
+# Taxonomy
+
+Binomial names, author should be in a separate column. Another additional column might give the category of name: binomial, binomial+subspecies, genus sp. (no genus alone), family, common name, morphospecies (family msp., genus msp.), morphospecies nickname, var., aff., new species, new genus.
+Darwin Core Taxa?

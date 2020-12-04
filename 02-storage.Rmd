@@ -1,0 +1,34 @@
+# Structuring, saving and opening tables
+
+## Rule of thumb
+Before beginning working and modifying a table either with a programming language or with a spreadsheet software, always check data integrity.
+
+## Language
+Using English is a necessity to share data between colleagues from the team and colleagues internationally. When naming files, variables or categories, you should use either American or British spelling in a consistent manner. A choice could be made at team level that everybody follows.
+
+## Header style
+Dot, under slash or camel?
+## Number spacing
+Writing large numbers as “4,000,000” or “4 000 000” or letting your spreadsheet software save data in that format is source of problems.
+
+## Decimal
+Should always be “.”.
+
+## Separator
+The comma is the preferred delimiter in the US while European countries often prefer the semicolon because comma is often used as the decimal delimiter. When entering data in Excel and some cells contain text including typographic characters such as commas, semicolons, apostrophe and others, Excel will encapsulate the cell between quotation marks when saving in csv. R write.csv() and write.csv2() will also. R write.table() does not by default but the argument qmethod can be set to “double” (this is the default in write.csv()).
+
+## Encoding
+Using the same encoding everywhere is good practice but in case of sharing data with other people, specifying the encoding in the filename, in the metadata or in the first line of a table is useful. See section Good versioning practices, page 3.
+R can write.table() with an encoding that Excel reads by default on a Windows machine (fileEncoding = "WINDOWS-1252"). But it is not the standard encoding on other platforms.
+**Warning**: if you open a file encoded in UTF-8 in Excel directly and then save it, Excel will open and save using the encoding "WINDOWS-1252" and will make encoding mistakes if there are special characters. Open properly an UTF-8 encoded file by opening a new spreadsheet, data > Get data from Text/CSV and choose the proper encoding option.
+
+## Filename
+Use meaningful names.
+**Windows**: you can make Windows always display file extensions to easily see differences between file formats. In Windows 10, from any Explorer window, View tab, Filename extensions.
+
+## Date format
+Specify the format in the metadata and preferably use ddmmyyyy; even better with separators but be consistent.
+
+##When working with people outside of the team
+When beginning a collaboration with people, take time to discuss and agree on a data management plan to avoid interoperability issues and data corruption or loss.
+
