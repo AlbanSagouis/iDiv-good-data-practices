@@ -16,10 +16,11 @@ Should always be “.”.
 
 ## Separator
 The comma is the preferred delimiter in the US while European countries often prefer the semicolon because comma is often used as the decimal delimiter. When entering data in Excel and some cells contain text including typographic characters such as commas, semicolons, apostrophe and others, Excel will encapsulate the cell between quotation marks when saving in csv. R write.csv() and write.csv2() will also. R write.table() does not by default but the argument qmethod can be set to “double” (this is the default in write.csv()).
+HERE SHOULD COME A TABLE WITH THE MOST COMMON SEPARATOR ENCODING AND DECIMAL SEPARATOR IN A FEW EUROPEAN COUNTRIES, IN THE US, AUSTRALIA ETC
 
 ## Encoding
 Using the same encoding everywhere is good practice but in case of sharing data with other people, specifying the encoding in the filename, in the metadata or in the first line of a table is useful. See section Good versioning practices, page 3.
-R can write.table() with an encoding that Excel reads by default on a Windows machine (fileEncoding = "WINDOWS-1252"). But it is not the standard encoding on other platforms.
+R can write.table() with an encoding that Excel reads by default on a Windows machine (fileEncoding = "WINDOWS-1252"). But it is not the standard encoding on other platforms. It is almost identical to latin-1 (data.table fread accepts only 'Latin-1', 'UTF-8' and 'unknown').
 **Warning**: if you open a file encoded in UTF-8 in Excel directly and then save it, Excel will open and save using the encoding "WINDOWS-1252" and will make encoding mistakes if there are special characters. Open properly an UTF-8 encoded file by opening a new spreadsheet, data > Get data from Text/CSV and choose the proper encoding option.
 
 ## Filename
